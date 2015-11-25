@@ -5,6 +5,7 @@
     <title>{{ page.title }} | iwanttotry.science</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <meta name="viewport" content="width=device-width">
+    <style>.chip { margin-right: 10px; }</style>
   </head>
   <body>
     <div class="navbar-fixed">
@@ -16,6 +17,7 @@
     </div>
     <div class="container">
       <h1>{{ page.title }}</h1>
+      Wykonanie: {% for author in page.authors %}<div class="chip">{{ author }}</div>{% endfor %}
       <main class="flow-text">
         {{ content }}
       </main>

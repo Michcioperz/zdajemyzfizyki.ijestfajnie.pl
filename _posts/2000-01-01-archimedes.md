@@ -3,6 +3,8 @@
 layout: post
 
 title: Prawo Archimedesa
+
+authors: [Alicja Okapa, Karolina Wlaź]
 ---
 
 Prawo Archimedesa to podstawowe prawo hydrostatyki, mówiące o tym, że na ciało zanurzone w cieczy lub w gazie działa siła wyporu równa co do wartości ciężarowi wypartej substancji.

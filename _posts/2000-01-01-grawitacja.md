@@ -3,6 +3,8 @@
 layout: post
 
 title: Dowód że emocje mają masę i w ogóle
+
+authors: [Pewien Admin]
 ---
 
 ## Temat doświadczenia
