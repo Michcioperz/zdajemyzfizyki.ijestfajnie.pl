@@ -10,7 +10,7 @@ authors: [Alicja Okapa, Karolina Wlaź]
 Prawo Archimedesa to podstawowe prawo hydrostatyki, mówiące o tym, że na ciało zanurzone w cieczy lub w gazie działa siła wyporu równa co do wartości ciężarowi wypartej substancji.
 
 Na zdjęciu widzimy słonia zawieszonego na siłomierzu. Odczytujemy wartość 
-$$F_c = 130 G \mathsf{(gram-siła)} ≈ 1.3 N$$.
+$$F_c = 130$$<a title="gram-siła" alt="gram-siła">$$G$$</a>$$ ≈ 1.3 N$$.
 
 <div class="row">
   <div class="col s6 m3 l2"><img class="materialboxed responsive-img" data-src="//i.imgur.com/NkdroCq.jpg" src="//i.imgur.com/NkdroCqm.jpg"></div>
