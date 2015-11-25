@@ -5,6 +5,12 @@
     <title>{{ page.title }} | iwanttotry.science</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://iwanttotry.science{{ page.url }}">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="IWantToTry.Science">
+    {% for author in page.authors %}<meta property="article:author" content="{{ author }}">{% endfor %}
     <style>.chip { margin-right: 10px; }</style>
   </head>
   <body>
