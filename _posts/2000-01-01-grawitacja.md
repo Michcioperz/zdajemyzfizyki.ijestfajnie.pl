@@ -4,6 +4,10 @@ layout: post
 
 title: "[TEST STRONY] Dowód że emocje mają masę i w ogóle"
 
+nickname: Grawitacja
+
+thumbnail: "http://img.youtube.com/vi/KEA76l3tLzM/0.jpg"
+
 authors: [Pewien Admin]
 ---
 

@@ -2,3 +2,5 @@ timezone: Europe/Warsaw
 encoding: utf-8
 future: true
 permalink: none
+safe: true
+port: 8888

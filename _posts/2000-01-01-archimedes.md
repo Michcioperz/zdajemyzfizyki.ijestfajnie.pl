@@ -4,6 +4,10 @@ layout: post
 
 title: Prawo Archimedesa
 
+nickname: Archimedes
+
+thumbnail: http://i.imgur.com/f11Dd5Gm.jpg
+
 authors: [Alicja Okapa, Karolina Wlaź]
 ---
 
