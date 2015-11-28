@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Dowód że emocje mają masę i w ogóle
+title: [TEST STRONY] Dowód że emocje mają masę i w ogóle
 
 authors: [Pewien Admin]
 ---
@@ -28,4 +28,4 @@ Tor pocisków jest zakrzywiony co znaczy że w pobliżu znajduje się coś co ma
 
 ## Filmik
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KEA76l3tLzM" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/KEA76l3tLzM" frameborder="0" allowfullscreen></iframe></div>
