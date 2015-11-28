@@ -2,7 +2,7 @@
 
 layout: post
 
-title: [TEST STRONY] Dowód że emocje mają masę i w ogóle
+title: "[TEST STRONY] Dowód że emocje mają masę i w ogóle"
 
 authors: [Pewien Admin]
 ---
