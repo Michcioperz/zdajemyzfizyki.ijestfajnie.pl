@@ -28,4 +28,4 @@ Tor pocisków jest zakrzywiony co znaczy że w pobliżu znajduje się coś co ma
 
 ## Filmik
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/KEA76l3tLzM" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/KEA76l3tLzM?rel=0" frameborder="0" allowfullscreen></iframe></div>
