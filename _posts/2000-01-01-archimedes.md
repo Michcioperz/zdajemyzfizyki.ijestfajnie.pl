@@ -26,7 +26,7 @@ Prawo Archimedesa to podstawowe prawo hydrostatyki, mówiące o tym, że na cia�
 
 1. Odczytanie wartości na siłomierzu, gdy ciało nie jest w wodzie (siła ciężkości $$ F_g $$)
 2. Odczytanie wartości na siłomierzu, gdy ciało jest w wodzie (siła wypadkowa $$ F_w $$)
-3. Obliczenie siły wyporu ($$ F_w - F_g $$)
+3. Obliczenie siły wyporu ($$ F_g - F_w $$)
 4. Zbadanie ile wody ubyło po wsadzeniu ciała do wody
 5. Sprawdzenie, czy ciężar wody jest równy sile wyporu
 
