@@ -21,7 +21,7 @@ title: so you want to try science
     <div class="container-fluid">
       <div class="row">
         {% assign posts = site.posts %}
-        {% for post in posts %}
+        {% for post in posts %}{% unless post.secret %}
         <div class="col s12 m3 l2">
           <div class="card indigo">
             {% if post.thumbnail %}
@@ -43,7 +43,7 @@ title: so you want to try science
             </div>
           </div>
         </div>
-        {% endfor %}
+        {% endunless %}{% endfor %}
       </div>
     </div>
     {% include footer.html %}

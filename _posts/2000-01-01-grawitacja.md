@@ -2,6 +2,8 @@
 
 layout: post
 
+secret: society
+
 title: "[TEST STRONY] Dowód że emocje mają masę i w ogóle"
 
 nickname: Grawitacja
