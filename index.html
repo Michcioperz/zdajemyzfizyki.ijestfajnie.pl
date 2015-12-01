@@ -5,6 +5,10 @@ title: so you want to try science
 <html>
   <head>
     {% include header.html %}
+    <style>
+      @media only screen and (min-width: 600px) { .container-fluid { column-count: 4; -webkit-column-count: 4; -moz-column-count: 4; }
+      .card { width: 100%; margin: 10px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: aboid-column; display:table; }
+    </style>
   </head>
   <body>
     <div class="navbar-fixed">
@@ -18,31 +22,25 @@ title: so you want to try science
       <h2 class="center header indigo-text">Intrygujące eksperymenty<small>, za które <strong><em>może</em></strong> nie dostaniesz oceny niedostatecznej</h2>
       <h5>Na tej stronie znajdziesz opisy i różnych doświadczeń wykonanych przez uczniów klasy 2d <small>mat-fiz-inf</small> <a href="http://lo01.pl">I Liceum Ogólnokształcącego im. Stanisława Staszica w Lublinie</a> w roku szkolnym 2015/16.</h5>
     </div>
+    <br /><br /><br />
     <div class="container-fluid">
-      <div class="row">
         {% assign posts = site.posts %}
         {% for post in posts %}{% unless post.secret %}
-        <div class="col s12 m3">
-          <div class="card indigo">
+          <div class="card indigo z-depth-5">
             {% if post.thumbnail %}
             <div class="waves-effect waves-block waves-light card-image">
               <a href="{{ post.url }}"><img src="{{ post.thumbnail }}" style="max-height:300px"></a>
-              <span class="card-title {{ post.thumbnailtextcolor }}">{{ post.nickname }}</span>
+              <a href="{{ post.url }}" class="indigo card-title {{ post.thumbnailtextcolor }}">{{ post.nickname }}</a>
             </div>
             {% if post.nickname != post.title %}<div class="card-content white-text"><p>{{ post.title }}</p></div>{% endif %}
             {% else %}
             <div class="card-content white-text">
-              <span class="card-title">{{ post.nickname }}</span>
+              <a href="{{ post.url }}" class="card-title white-text">{{ post.nickname }}</a>
               {% if post.nickname != post.title %}<p>{{ post.title }}</p>{% endif %}
             </div>
             {% endif %}
-            <div class="card-action">
-              <a href="{{ post.url }}">Do tablicy</a>
-            </div>
           </div>
-        </div>
         {% endunless %}{% endfor %}
-      </div>
     </div>
     {% include footer.html %}
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
