@@ -5,10 +5,6 @@ title: so you want to try science
 <html>
   <head>
     {% include header.html %}
-    <style>
-      @media only screen and (min-width: 600px) { .container-fluid { column-count: 4; -webkit-column-count: 4; -moz-column-count: 4; }
-      .card { width: 100%; margin: 10px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: aboid-column; display:table; }
-    </style>
   </head>
   <body>
     <div class="navbar-fixed">
@@ -24,8 +20,10 @@ title: so you want to try science
     </div>
     <br /><br /><br />
     <div class="container-fluid">
+      <div class="row">
         {% assign posts = site.posts %}
         {% for post in posts %}{% unless post.secret %}
+        <div class="col s12 m3">
           <div class="card waves-effect waves-block waves-light indigo z-depth-5">
             {% if post.thumbnail %}
             <div class="card-image">
@@ -40,7 +38,9 @@ title: so you want to try science
             </div>
             {% endif %}
           </div>
+        </div>
         {% endunless %}{% endfor %}
+      </div>
     </div>
     {% include footer.html %}
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
