@@ -29,13 +29,11 @@ title: so you want to try science
               <img src="{{ post.thumbnail }}" style="max-height:300px">
               <span class="card-title {{ post.thumbnailtextcolor }}">{{ post.nickname }}</span>
             </div>
-            <div class="card-content white-text">
-              <p>{{ post.title }}</p>
-            </div>
+            {% if post.nickname != post.title %}<div class="card-content white-text"><p>{{ post.title }}</p></div>{% endif %}
             {% else %}
             <div class="card-content white-text">
               <span class="card-title">{{ post.nickname }}</span>
-              <p>{{ post.title }}</p>
+              {% if post.nickname != post.title %}<p>{{ post.title }}</p>{% endif %}
             </div>
             {% endif %}
             <div class="card-action">
